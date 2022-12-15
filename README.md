@@ -1,7 +1,7 @@
 # Registration Form #
  ## Framwork used to Built this  Registration form is  MERN stack. React for the Frontend and MongoDB as database.As this Project includes both frontend and Backend so that's why I used MERN stack for completing this task.Form Contains three basic details NAME,AGE,BATCH.##
 ![MERN STACK](https://user-images.githubusercontent.com/64707041/207957479-65ce1f33-8839-4239-a81e-31fb5b598e81.png)
-#Backend#
+# Backend #
 ## For managing the BAckend Part I used MongoDb for saving databases of users.Mongodb Atlas to acces the database from anywhere from the World.##
 ![Backend](https://user-images.githubusercontent.com/64707041/207959009-bf8aff25-e1d2-4e13-b42b-d1cd2cf188d1.png)
 # Frontend #
