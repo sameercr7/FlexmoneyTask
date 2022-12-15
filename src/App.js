@@ -27,7 +27,7 @@ const validation = ({ error, ...rest }) => {
     return checkValidation;
     
 };
-
+// now we are exporting 
 export default class Form extends Component {
 
 
@@ -37,11 +37,11 @@ export default class Form extends Component {
         this.state = {
             name: '',
             number: '',
-            batch:'',
+            value:'',
             message: '',
             error: {
                 name: '',
-                number: '',
+                number: '', 
             }
         }
     }
@@ -49,7 +49,7 @@ export default class Form extends Component {
     onFormSubmit = event => {
        const name=this.state.name;
        const age=this.state.number;
-       const batch=this.state.batch;
+       const batch=this.state.value;
         event.preventDefault();
         
         if (validation(this.state)) {
@@ -80,7 +80,7 @@ export default class Form extends Component {
     CompletePayment=()=>{
         return true;
     }
-    handleChange(event) {
+    handleChange = event => {
         this.setState({value: event.target.value});
       }
    
