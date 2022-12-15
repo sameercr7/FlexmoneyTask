@@ -65,7 +65,7 @@ export default class Form extends Component {
           age: age,
           batch: batch
         }
-        axios.post('http://localhost:3001/user', formData,{headers:{"Content-Type" : "application/json"}})
+        axios.post('https://formtask2.onrender.com/user', formData,{headers:{"Content-Type" : "application/json"}})
         .then(function (response) {
           Swal.fire('Transaction Completed!','Successfully registered','success')
           event.target.reset();
